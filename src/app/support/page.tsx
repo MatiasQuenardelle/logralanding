@@ -1,70 +1,78 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Support - Logra",
+  title: "Soporte - Logra",
 };
 
 export default function Support() {
   return (
     <div className="mx-auto max-w-3xl px-6 pt-32 pb-20">
-      <h1 className="text-4xl font-bold tracking-tight">Support</h1>
-      <p className="mt-4 text-lg text-gray-600">
-        We&apos;re here to help. Reach out to us with any questions, feedback,
-        or issues.
+      <h1 className="text-4xl font-bold tracking-tight text-foreground">
+        Soporte
+      </h1>
+      <p className="mt-4 text-lg text-muted">
+        Estamos aquí para ayudarte. Comunícate con nosotros con cualquier
+        pregunta, comentario o problema.
       </p>
 
       <div className="mt-12 space-y-10">
-        <section className="rounded-2xl border border-gray-200 p-8">
-          <h2 className="text-xl font-semibold">Contact Us</h2>
-          <p className="mt-3 text-gray-600">
-            The fastest way to get help is to email us directly. We typically
-            respond within 24 hours.
+        <section className="rounded-2xl border border-border bg-surface p-8">
+          <h2 className="text-xl font-semibold text-foreground">Contáctanos</h2>
+          <p className="mt-3 text-muted">
+            La forma más rápida de obtener ayuda es escribirnos directamente por
+            correo electrónico. Generalmente respondemos dentro de 24 horas.
           </p>
           <a
             href="mailto:support@logra.app"
-            className="mt-4 inline-block rounded-lg bg-black px-6 py-3 text-sm font-medium text-white transition-transform hover:scale-105 active:scale-95"
+            className="mt-4 inline-block rounded-lg border border-copper/30 bg-copper/10 px-6 py-3 text-sm font-medium text-copper-light transition-all hover:scale-105 hover:border-copper/50 hover:bg-copper/20 active:scale-95"
           >
-            Email support@logra.app
+            Envía un correo a support@logra.app
           </a>
         </section>
 
         <section>
-          <h2 className="text-2xl font-semibold">Frequently Asked Questions</h2>
+          <h2 className="text-2xl font-semibold text-foreground">
+            Preguntas Frecuentes
+          </h2>
           <div className="mt-6 space-y-6">
-            <div>
-              <h3 className="font-medium text-gray-900">
-                How do I create a new goal?
+            <div className="rounded-xl border border-border bg-surface p-6">
+              <h3 className="font-medium text-foreground">
+                ¿Cómo creo un nuevo objetivo?
               </h3>
-              <p className="mt-2 text-gray-600">
-                Tap the &quot;+&quot; button on the home screen to create a new
-                goal. You can set a title, description, and target date.
+              <p className="mt-2 text-muted">
+                Toca el botón &quot;+&quot; en la pantalla de inicio para crear
+                un nuevo objetivo. Puedes establecer un título, descripción y
+                fecha objetivo.
               </p>
             </div>
-            <div>
-              <h3 className="font-medium text-gray-900">
-                Is my data stored in the cloud?
+            <div className="rounded-xl border border-border bg-surface p-6">
+              <h3 className="font-medium text-foreground">
+                ¿Mis datos se almacenan en la nube?
               </h3>
-              <p className="mt-2 text-gray-600">
-                By default, all your data is stored locally on your device. Your
-                goals, habits, and progress stay private and under your control.
+              <p className="mt-2 text-muted">
+                Por defecto, todos tus datos se almacenan localmente en tu
+                dispositivo. Tus objetivos, hábitos y progreso permanecen
+                privados y bajo tu control.
               </p>
             </div>
-            <div>
-              <h3 className="font-medium text-gray-900">
-                How do I delete my data?
+            <div className="rounded-xl border border-border bg-surface p-6">
+              <h3 className="font-medium text-foreground">
+                ¿Cómo elimino mis datos?
               </h3>
-              <p className="mt-2 text-gray-600">
-                You can delete individual goals and habits from within the app.
-                To delete all data, simply uninstall the app from your device.
+              <p className="mt-2 text-muted">
+                Puedes eliminar objetivos y hábitos individuales desde dentro de
+                la app. Para eliminar todos los datos, simplemente desinstala la
+                app de tu dispositivo.
               </p>
             </div>
-            <div>
-              <h3 className="font-medium text-gray-900">
-                Is Logra free to use?
+            <div className="rounded-xl border border-border bg-surface p-6">
+              <h3 className="font-medium text-foreground">
+                ¿Es Logra gratuita?
               </h3>
-              <p className="mt-2 text-gray-600">
-                Logra is free to download and use. Some premium features may be
-                available through in-app purchases in the future.
+              <p className="mt-2 text-muted">
+                Logra es gratuita para descargar y usar. Es posible que algunas
+                funciones premium estén disponibles a través de compras dentro de
+                la app en el futuro.
               </p>
             </div>
           </div>

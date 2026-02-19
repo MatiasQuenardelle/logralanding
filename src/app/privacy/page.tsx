@@ -1,139 +1,150 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy - Logra",
+  title: "Política de Privacidad - Logra",
 };
 
 export default function PrivacyPolicy() {
   return (
     <div className="mx-auto max-w-3xl px-6 pt-32 pb-20">
-      <h1 className="text-4xl font-bold tracking-tight">Privacy Policy</h1>
-      <p className="mt-4 text-sm text-gray-500">
-        Last updated: February 19, 2026
+      <h1 className="text-4xl font-bold tracking-tight text-foreground">
+        Política de Privacidad
+      </h1>
+      <p className="mt-4 text-sm text-muted">
+        Última actualización: 19 de febrero de 2026
       </p>
 
-      <div className="mt-10 space-y-8 text-gray-700 leading-relaxed">
+      <div className="mt-10 space-y-8 leading-relaxed text-muted">
         <section>
-          <h2 className="text-xl font-semibold text-gray-900">Introduction</h2>
+          <h2 className="text-xl font-semibold text-foreground">
+            Introducción
+          </h2>
           <p className="mt-3">
-            Logra (&quot;we&quot;, &quot;our&quot;, or &quot;us&quot;) is
-            committed to protecting your privacy. This Privacy Policy explains
-            how we collect, use, and safeguard your information when you use our
-            mobile application.
+            Logra (&quot;nosotros&quot;, &quot;nuestro&quot;, o &quot;nos&quot;)
+            está comprometido a proteger tu privacidad. Esta Política de
+            Privacidad explica cómo recopilamos, utilizamos y salvaguardamos tu
+            información cuando utilizas nuestra aplicación móvil.
           </p>
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold text-gray-900">
-            Information We Collect
+          <h2 className="text-xl font-semibold text-foreground">
+            Información que Recopilamos
           </h2>
           <p className="mt-3">
-            We may collect the following types of information:
+            Podemos recopilar los siguientes tipos de información:
           </p>
           <ul className="mt-3 list-disc space-y-2 pl-6">
             <li>
-              <strong>Usage Data:</strong> Information about how you use the app,
-              including features accessed and time spent.
+              <strong className="text-foreground">Datos de Uso:</strong>{" "}
+              Información sobre cómo utilizas la app, incluidas las funciones
+              accedidas y el tiempo dedicado.
             </li>
             <li>
-              <strong>Device Information:</strong> Device type, operating system
-              version, and unique device identifiers.
+              <strong className="text-foreground">Información del Dispositivo:</strong>{" "}
+              Tipo de dispositivo, versión del sistema operativo e
+              identificadores únicos del dispositivo.
             </li>
             <li>
-              <strong>User Content:</strong> Goals, habits, and any other content
-              you create within the app. This data is stored locally on your
-              device.
+              <strong className="text-foreground">Contenido del Usuario:</strong> Objetivos,
+              hábitos y cualquier otro contenido que crees dentro de la app.
+              Estos datos se almacenan localmente en tu dispositivo.
             </li>
           </ul>
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold text-gray-900">
-            How We Use Your Information
+          <h2 className="text-xl font-semibold text-foreground">
+            Cómo Utilizamos Tu Información
           </h2>
-          <p className="mt-3">We use the information we collect to:</p>
+          <p className="mt-3">Utilizamos la información que recopilamos para:</p>
           <ul className="mt-3 list-disc space-y-2 pl-6">
-            <li>Provide and maintain the app</li>
-            <li>Improve and personalize your experience</li>
-            <li>Analyze usage patterns to enhance our features</li>
-            <li>Communicate with you about updates or support</li>
+            <li>Proporcionar y mantener la app</li>
+            <li>Mejorar y personalizar tu experiencia</li>
+            <li>Analizar patrones de uso para mejorar nuestras funciones</li>
+            <li>Comunicarnos contigo sobre actualizaciones o soporte</li>
           </ul>
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold text-gray-900">Data Storage</h2>
-          <p className="mt-3">
-            Your personal data, including goals and habits, is stored locally on
-            your device. We do not store your personal content on external
-            servers unless you explicitly opt in to a cloud sync feature.
-          </p>
-        </section>
-
-        <section>
-          <h2 className="text-xl font-semibold text-gray-900">
-            Third-Party Services
+          <h2 className="text-xl font-semibold text-foreground">
+            Almacenamiento de Datos
           </h2>
           <p className="mt-3">
-            We may use third-party services for analytics and crash reporting.
-            These services may collect information sent by your device, including
-            usage data and device information. These third-party services have
-            their own privacy policies governing the use of your information.
+            Tu información personal, incluyendo objetivos y hábitos, se almacena
+            localmente en tu dispositivo. No almacenamos tu contenido personal
+            en servidores externos a menos que explícitamente optes por una
+            función de sincronización en la nube.
           </p>
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold text-gray-900">
-            Data Retention
+          <h2 className="text-xl font-semibold text-foreground">
+            Servicios de Terceros
           </h2>
           <p className="mt-3">
-            We retain your data only for as long as necessary to provide you with
-            our services. You can delete your data at any time by removing the
-            app from your device.
+            Podemos utilizar servicios de terceros para análisis y reportes de
+            errores. Estos servicios pueden recopilar información enviada por tu
+            dispositivo, incluyendo datos de uso e información del dispositivo.
+            Estos servicios de terceros tienen sus propias políticas de
+            privacidad que rigen el uso de tu información.
           </p>
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold text-gray-900">
-            Children&apos;s Privacy
+          <h2 className="text-xl font-semibold text-foreground">
+            Retención de Datos
           </h2>
           <p className="mt-3">
-            Our app is not intended for children under the age of 13. We do not
-            knowingly collect personal information from children under 13. If we
-            become aware that we have collected personal data from a child under
-            13, we will take steps to delete that information.
+            Retenemos tu información solo durante el tiempo necesario para
+            proporcionarte nuestros servicios. Puedes eliminar tus datos en
+            cualquier momento desinstalando la app de tu dispositivo.
           </p>
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold text-gray-900">Your Rights</h2>
-          <p className="mt-3">You have the right to:</p>
+          <h2 className="text-xl font-semibold text-foreground">
+            Privacidad de Menores
+          </h2>
+          <p className="mt-3">
+            Nuestra app no está destinada a menores de 13 años. No recopilamos
+            intencionalmente información personal de menores de 13 años. Si nos
+            percatamos de que hemos recopilado información personal de un menor
+            de 13 años, tomaremos medidas para eliminar esa información.
+          </p>
+        </section>
+
+        <section>
+          <h2 className="text-xl font-semibold text-foreground">Tus Derechos</h2>
+          <p className="mt-3">Tienes derecho a:</p>
           <ul className="mt-3 list-disc space-y-2 pl-6">
-            <li>Access the personal data we hold about you</li>
-            <li>Request correction of inaccurate data</li>
-            <li>Request deletion of your data</li>
-            <li>Opt out of analytics data collection</li>
+            <li>Acceder a los datos personales que tenemos sobre ti</li>
+            <li>Solicitar la corrección de datos inexactos</li>
+            <li>Solicitar la eliminación de tus datos</li>
+            <li>Optar por no participar en la recopilación de datos de análisis</li>
           </ul>
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold text-gray-900">
-            Changes to This Policy
+          <h2 className="text-xl font-semibold text-foreground">
+            Cambios a Esta Política
           </h2>
           <p className="mt-3">
-            We may update this Privacy Policy from time to time. We will notify
-            you of any changes by posting the new Privacy Policy on this page and
-            updating the &quot;Last updated&quot; date.
+            Podemos actualizar esta Política de Privacidad de vez en cuando. Te
+            notificaremos de cualquier cambio publicando la nueva Política de
+            Privacidad en esta página y actualizando la fecha de &quot;Última
+            actualización&quot;.
           </p>
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold text-gray-900">Contact Us</h2>
+          <h2 className="text-xl font-semibold text-foreground">Contáctanos</h2>
           <p className="mt-3">
-            If you have any questions about this Privacy Policy, please contact
-            us at{" "}
+            Si tienes preguntas sobre esta Política de Privacidad, contáctanos
+            en{" "}
             <a
               href="mailto:support@logra.app"
-              className="text-black underline underline-offset-4 hover:text-gray-600"
+              className="text-copper underline underline-offset-4 transition-colors hover:text-copper-light"
             >
               support@logra.app
             </a>

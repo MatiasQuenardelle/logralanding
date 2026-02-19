@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Logra",
   description:
-    "Logra helps you track your goals and build better habits. Download now on the App Store.",
+    "Logra te ayuda a rastrear tus objetivos y construir mejores hábitos. Descarga ahora en la App Store.",
 };
 
 export default function RootLayout({
@@ -26,7 +26,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="es">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
