@@ -11,7 +11,7 @@ export default function TermsOfService() {
         Términos de Servicio
       </h1>
       <p className="mt-4 text-sm text-muted">
-        Última actualización: 19 de febrero de 2026
+        Última actualización: 22 de febrero de 2026
       </p>
 
       <div className="mt-10 space-y-8 leading-relaxed text-muted">
@@ -35,6 +35,92 @@ export default function TermsOfService() {
             rastrear objetivos y construir hábitos. La App proporciona
             herramientas para establecer objetivos, rastrear el progreso y
             mantener rutinas productivas.
+          </p>
+        </section>
+
+        <section>
+          <h2 className="text-xl font-semibold text-foreground">
+            Suscripciones y Pagos
+          </h2>
+          <p className="mt-3">
+            Logra ofrece los siguientes planes de suscripción y opciones de
+            compra:
+          </p>
+          <ul className="mt-3 list-disc space-y-2 pl-6">
+            <li>
+              <strong className="text-foreground">Semanal</strong> —
+              Suscripción semanal recurrente
+            </li>
+            <li>
+              <strong className="text-foreground">Mensual</strong> —
+              Suscripción mensual recurrente
+            </li>
+            <li>
+              <strong className="text-foreground">Anual</strong> — Suscripción
+              anual recurrente
+            </li>
+            <li>
+              <strong className="text-foreground">Vitalicio</strong> — Compra
+              única que otorga acceso permanente sin cargos recurrentes
+            </li>
+          </ul>
+
+          <h3 className="mt-6 text-lg font-semibold text-foreground">
+            Pago y Facturación
+          </h3>
+          <p className="mt-3">
+            El pago se cargará a tu cuenta de Apple ID al confirmar la compra.
+            Los precios de suscripción se muestran en la app y pueden variar
+            según la región y la moneda.
+          </p>
+
+          <h3 className="mt-6 text-lg font-semibold text-foreground">
+            Renovación Automática
+          </h3>
+          <p className="mt-3">
+            Las suscripciones se renuevan automáticamente a menos que se
+            cancelen al menos 24 horas antes del final del período actual. Se
+            cobrará la renovación dentro de las 24 horas previas al fin del
+            período vigente, al mismo precio de la suscripción original.
+          </p>
+
+          <h3 className="mt-6 text-lg font-semibold text-foreground">
+            Pruebas Gratuitas
+          </h3>
+          <p className="mt-3">
+            Logra puede ofrecer períodos de prueba gratuita para ciertos planes
+            de suscripción. Cualquier porción no utilizada del período de prueba
+            gratuita se perderá al comprar una suscripción. Si no cancelas antes
+            de que termine la prueba, se te cobrará automáticamente el precio de
+            la suscripción.
+          </p>
+
+          <h3 className="mt-6 text-lg font-semibold text-foreground">
+            Administrar y Cancelar Suscripciones
+          </h3>
+          <p className="mt-3">
+            Puedes administrar o cancelar tus suscripciones en cualquier momento
+            desde Ajustes &gt; Apple ID &gt; Suscripciones en tu dispositivo. La
+            cancelación se hace efectiva al final del período de facturación
+            actual — conservarás el acceso hasta entonces.
+          </p>
+
+          <h3 className="mt-6 text-lg font-semibold text-foreground">
+            Compra Vitalicia
+          </h3>
+          <p className="mt-3">
+            La opción Vitalicia es una compra única y no recurrente. Otorga
+            acceso permanente a todas las funciones premium sin cargos
+            adicionales.
+          </p>
+
+          <h3 className="mt-6 text-lg font-semibold text-foreground">
+            Reembolsos
+          </h3>
+          <p className="mt-3">
+            Las solicitudes de reembolso son gestionadas por Apple de acuerdo
+            con sus políticas de reembolso. Logra no procesa reembolsos
+            directamente.
           </p>
         </section>
 
